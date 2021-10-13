@@ -16,11 +16,11 @@
 //     .catch(err=>console.log(err))
 
 // task-1
-var a=11;
+var a=10;
 const count=new Promise((resolve,reject)=>{
-   if(a==11){
+   if(a>=1){
     setTimeout(() => {
-       document.querySelector(".msg").innerText=--a
+       document.querySelector(".msg").innerText=a
        resolve("HAPPY INDEPENDENCE DAY")
     }, 1000);}else{
         reject ("Restart Countdown")
