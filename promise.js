@@ -18,7 +18,7 @@
 // task-1
 var a=11;
 const count=new Promise((resolve,reject)=>{
-   if(a<=11){
+   if(a==11){
     setTimeout(() => {
        document.querySelector(".msg").innerText=--a
        resolve("HAPPY INDEPENDENCE DAY")
